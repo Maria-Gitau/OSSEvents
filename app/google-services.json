@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "94654828396",
+    "firebase_url": "https://ossevents-66748.firebaseio.com",
+    "project_id": "ossevents-66748",
+    "storage_bucket": "ossevents-66748.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94654828396:android:e747998bd9bef81d6e6d49",
+        "android_client_info": {
+          "package_name": "com.maria.osseevents"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "94654828396-hoqrvulmhfgiq4agvsfbbqe1nfffhbdh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.maria.osseevents",
+            "certificate_hash": "44fc5c9191bd39a94f076ee4eaaf0451c5db8a21"
+          }
+        },
+        {
+          "client_id": "94654828396-ulo2qcnmiovcbk3nm2vtu4tk9m31a0n5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIZVy4QXPBIQGxVHkd9oz5tZT2JY8dVe8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "94654828396-ulo2qcnmiovcbk3nm2vtu4tk9m31a0n5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

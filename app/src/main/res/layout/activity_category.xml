@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CategoryActivity"
+    android:padding="8dp">
+    
+    <TextView
+        android:id="@+id/slogan_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="Add New Product"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:textStyle="bold"/>
+    
+    <LinearLayout
+        android:id="@+id/linear1_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slogan_category"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="45dp">
+
+        <ImageView
+            android:id="@+id/bouncing_castle"
+            android:layout_width="110dp"
+            android:layout_height="90dp"
+            android:src="@drawable/bouncing_castle" />
+
+        <ImageView
+            android:id="@+id/face_art"
+            android:layout_width="110dp"
+            android:layout_height="90dp"
+            android:src="@drawable/face_art" />
+
+        <ImageView
+            android:id="@+id/cotton_candy"
+            android:layout_width="110dp"
+            android:layout_height="90dp"
+            android:src="@drawable/cotton_candy"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear2_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_below="@id/linear1_category_layout"
+        android:layout_marginTop="45dp">
+
+        <ImageView
+            android:id="@+id/popcorn"
+            android:layout_width="110dp"
+            android:layout_height="90dp"
+            android:src="@drawable/popcorn" />
+
+        <ImageView
+            android:id="@+id/entertainment"
+            android:layout_width="110dp"
+            android:layout_height="90dp"
+            android:src="@drawable/entertainment" />
+
+        <ImageView
+            android:id="@+id/decorations"
+            android:layout_width="110dp"
+            android:layout_height="90dp"
+            android:src="@drawable/decorations"
+            android:layout_marginStart="16dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear3_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_below="@id/linear2_category_layout"
+        android:layout_marginTop="45dp">
+
+        <ImageView
+            android:id="@+id/music"
+            android:layout_width="110dp"
+            android:layout_height="90dp"
+            android:src="@drawable/music" />
+
+        <ImageView
+            android:id="@+id/photography"
+            android:layout_width="110dp"
+            android:layout_height="90dp"
+            android:src="@drawable/photography" />
+
+        <ImageView
+            android:id="@+id/lighting"
+            android:layout_width="110dp"
+            android:layout_height="90dp"
+            android:src="@drawable/lighting"
+            android:layout_marginStart="16dp"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
